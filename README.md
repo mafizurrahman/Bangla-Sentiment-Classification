@@ -1,7 +1,7 @@
 # 🇧🇩 Bangla Sentiment Analysis
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x200/5D44B3/ffffff?text=Bangla+Sentiment+Analysis" alt="Bangla Sentiment Analysis Banner"/>
+<!--   <img src="https://via.placeholder.com/800x200/5D44B3/ffffff?text=Bangla+Sentiment+Analysis" alt="Bangla Sentiment Analysis Banner"/> -->
   <p>A deep learning approach for sentiment analysis on Bangla text using Word2Vec embeddings and LSTM networks</p>
 </div>
 
@@ -10,13 +10,13 @@
 This project implements a binary sentiment classifier for Bangla text that can classify text as either "positive" or "negative". The model uses Word2Vec for word embeddings and LSTM (Long Short-Term Memory) for sequence learning.
 
 <div align="center">
-  <img src="https://via.placeholder.com/600x300/f0f0f0/000000?text=Positive+vs+Negative+Classification" alt="Positive vs Negative Classification"/>
+<!--   <img src="https://via.placeholder.com/600x300/f0f0f0/000000?text=Positive+vs+Negative+Classification" alt="Positive vs Negative Classification"/> -->
 </div>
 
 ## 🧠 Model Architecture
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x400/e6f7ff/000000?text=Model+Architecture" alt="Model Architecture Diagram"/>
+<!--   <img src="https://via.placeholder.com/800x400/e6f7ff/000000?text=Model+Architecture" alt="Model Architecture Diagram"/> -->
 </div>
 
 The sentiment analysis model consists of several key components:
@@ -69,25 +69,12 @@ The sentiment analysis model consists of several key components:
 └───────────────────────────────────┘
 ```
 
-## 📈 Training Progress
 
-<div align="center">
-  <table>
-    <tr>
-      <td><img src="https://via.placeholder.com/400x300/e6f7ff/000000?text=Accuracy+Graph" alt="Accuracy Graph"/></td>
-      <td><img src="https://via.placeholder.com/400x300/e6f7ff/000000?text=Loss+Graph" alt="Loss Graph"/></td>
-    </tr>
-    <tr>
-      <td align="center">Model Accuracy</td>
-      <td align="center">Model Loss</td>
-    </tr>
-  </table>
-</div>
 
 ## 📁 Dataset
 
 <div align="center">
-  <img src="https://via.placeholder.com/600x300/f0f0f0/000000?text=Dataset+Distribution" alt="Dataset Distribution"/>
+<!--   <img src="https://via.placeholder.com/600x300/f0f0f0/000000?text=Dataset+Distribution" alt="Dataset Distribution"/> -->
 </div>
 
 The model is trained on a custom Bangla sentiment dataset:
@@ -113,7 +100,7 @@ The model is trained on a custom Bangla sentiment dataset:
 ### Training Pipeline
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x200/f0f0f0/000000?text=Training+Pipeline" alt="Training Pipeline"/>
+<!--   <img src="https://via.placeholder.com/800x200/f0f0f0/000000?text=Training+Pipeline" alt="Training Pipeline"/> -->
 </div>
 
 ```python
@@ -142,7 +129,7 @@ history = model.fit(x_train, y_train, batch_size=1024, epochs=20, validation_spl
 ### Inference
 
 <div align="center">
-  <img src="https://via.placeholder.com/600x200/f0f0f0/000000?text=Prediction+Pipeline" alt="Prediction Pipeline"/>
+<!--   <img src="https://via.placeholder.com/600x200/f0f0f0/000000?text=Prediction+Pipeline" alt="Prediction Pipeline"/> -->
 </div>
 
 ```python
@@ -200,7 +187,7 @@ print(result)
 ## 🚀 Future Improvements
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x200/f0f0f0/000000?text=Future+Development+Roadmap" alt="Future Development Roadmap"/>
+<!--   <img src="https://via.placeholder.com/800x200/f0f0f0/000000?text=Future+Development+Roadmap" alt="Future Development Roadmap"/> -->
 </div>
 
 - 📈 Experiment with different embedding dimensions
